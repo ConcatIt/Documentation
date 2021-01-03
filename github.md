@@ -1,6 +1,6 @@
 # Github Collaboration 
 
-### Worflow management
+## Worflow management
 Below are some important Github CLI commands, which will be helpful to manage collaboration with other developer. Always follow this sequence when you're collaborating in a team over a single repository.
 
 1. Firstly, stage all modified files: **`git add .`**  
@@ -10,11 +10,12 @@ Below are some important Github CLI commands, which will be helpful to manage co
 1. Now after resolving conflicts, commit your code again.
 1. Finally, push your changes on Github website: **`git push origin branch_name`**. Note: never ever run **`git push`** if you've multiple branches. Because this will always push your code into 'master' or 'main' branch which is not a good practice.
 
-Tips: 
+### Tips: 
 - Always use **`git pull`** before start working.
 - Run this while cloning a repo: **`git clone https://username:password@github.com/username/reponame.git`** to avoid inserting ID & password each time you pull or push code into the repo.
 - Always push the complete code (don't push code if it persist some error)
 
 
 Need Help? ping [this](https://github.com/genialkartik) guy!
+
 Detail Guidance: [https://guides.github.com/](https://guides.github.com/)
